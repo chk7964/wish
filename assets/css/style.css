@@ -580,7 +580,7 @@ footer .wrapper { text-align: center; }
    */
 
   .blog-card {
-    display: grid;
+    
     grid-template-columns: 3fr 4fr;
     gap: 20px;
   }
