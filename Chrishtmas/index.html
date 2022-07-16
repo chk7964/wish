@@ -490,11 +490,7 @@ $(window).load(function() {
 	<div class='name' id="psname" >
 			<figure >
 			<h1 id="name1" style="text-transform: uppercase; ">First Tech Info</h1>
-			<h1 id="name2" style="text-transform: uppercase;">First Tech Info</h1>
-			<h1 id="name3" style="text-transform: uppercase;">First Tech Info</h1>
-			<h1 id="name4" style="text-transform: uppercase;">First Tech Info</h1>
-			<h1 id="name5" style="text-transform: uppercase;">First Tech Info</h1>
-			<h1 id="name6" style="text-transform: uppercase;">First Tech Info</h1>
+		
 			</figure>
 		</div>
 				<div class='name' hidden id="sname"></div>
@@ -574,8 +570,8 @@ var jqs = function(sParam) {
     }
 };
     window.jqs = jqs;
-    var name = decodeURI(jqs("n"));
-    if (typeof jqs("n") === "undefined") {
+    var name = decodeURI(jqs("by"));
+    if (typeof jqs("by") === "undefined") {
 name = "";
     }
     var checkName = function() {
@@ -604,7 +600,7 @@ if (name.length !== 0) {
  document.querySelector("#formBox").hidden = true;
  document.querySelector("#psname").hidden = true;
  document.querySelector("#share-button").hidden = false;
- document.querySelector("#sname").innerHTML = "<figure><h1 style='text-transform: uppercase;' id='sname' >" + sname + "</h1><h1 style='text-transform: uppercase;' id='sname' >" + sname + "</h1><h1 style='text-transform: uppercase;' id='sname' >" + sname + "</h1><h1 style='text-transform: uppercase;' id='sname' >" + sname + "</h1><h1 style='text-transform: uppercase;' id='sname' >" + sname + "</h1><h1 style='text-transform: uppercase;' id='sname' >" + sname + "</h1>	</figure>";
+ document.querySelector("#sname").innerHTML = "<figure><h1 style='text-transform: uppercase;' id='sname' >" + sname + "</h1></figure>";
  document.querySelector("#sname").hidden = false;
  $("#ads").css("display","none");
  $(".ads").css("display","none");
@@ -622,7 +618,7 @@ if (name.length !== 0) {
   shareString += "*दुर्गा पूजा* के मौके पर %0A";
  shareString += "*"+sname+"*";
  shareString +=" ने आपके लिए कुछ खास भेजा है जल्दी से ओपन करो ओपन करने के बाद *गिफ्ट* को टच करो %0A👇👇👇👇 %0A"
- shareString +=(window.location.href.split("?")[0] + "?n=" + sname).replace("#", "").replace(/ /g, "_");
+ shareString +=(window.location.href.split("?")[0] + "?by=" + sname).replace("#", "").replace(/ /g, "_");
  
 
  whatsappHref = "https://api.whatsapp.com/send?text=" + shareString;
