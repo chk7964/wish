@@ -65,7 +65,7 @@ function checkloveper() {
         + "Care:- " + service2 + " 😊 %0a"
         + "प्रेम:- " + service3 + " ❤️ %0a"
         +  "Cheak Your 👇👇" +  "%0a"
-        +    "https://link.wishes4u.xyz/persanality" ; 
+        +    "link.wishes4u.xyz/persanality" ; 
     
         window.open(url, '_blank').focus();
     }
