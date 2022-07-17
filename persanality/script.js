@@ -57,15 +57,15 @@ function checkloveper() {
     
         var url = "https://api.whatsapp.com/send?text="
          +"*"+ nameenter+"*" + " की विशेषताए" + "%0a"
-        + "व्यक्तित्व:- " + name + "%0a"
-        + "निष्ठावान:- " + phone + "%0a"
-        + "अमीरी:- " + email  + "%0a"
-        + "बुद्धि :- " + service  + "%0a"
-        + "गुस्सा:- " + service1 + "%0a"
-        + "Care:- " + service2 + "%0a"
-        + "प्रेम:- " + service3 + "%0a"
-        +  "Cheak Your" +  "%0a"
-        +    "https://www.wishes4u.xyz/quiz" ; 
+        + "व्यक्तित्व:- " + name + " 😘 %0a"
+        + "निष्ठावान:- " + phone + " 😎 %0a"
+        + "अमीरी:- " + email  + " 😊 %0a"
+        + "बुद्धि :- " + service  + " 🤗 %0a"
+        + "गुस्सा:- " + service1 + " 😡 %0a"
+        + "Care:- " + service2 + " 😊 %0a"
+        + "प्रेम:- " + service3 + " ❤️ %0a"
+        +  "Cheak Your 👇👇" +  "%0a"
+        +    "https://link.wishes4u.xyz/persanality" ; 
     
         window.open(url, '_blank').focus();
     }
