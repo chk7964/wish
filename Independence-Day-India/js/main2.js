@@ -1,4 +1,4 @@
-let shareUrl = 'link.wishes4u.xyz/Independence-Day-India';    // get full url
+let shareUrl = 'https://www.wishes4u.xyz/Independence-Day-India';    // get full url
 let params = new URLSearchParams(window.location.search); // object to get query or strings in url
 let name1=localStorage.getItem("name");
           document.title = name1 + ' Wish You Happy Indepensday' ;
