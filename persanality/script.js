@@ -40,7 +40,7 @@ function checkloveper() {
     
     document.querySelector("#name1").innerHTML = name;
  
-    
+  }}
     
     function gotowhatsapp() {
       var nameenter = document.getElementById("name").value;
@@ -66,6 +66,5 @@ function checkloveper() {
     
         window.open(url, '_blank').focus();
     }
-  }
+  
     
-}
