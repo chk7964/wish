@@ -5,7 +5,7 @@ let name1=localStorage.getItem("name");
 
 
 document.getElementById("obj1").innerHTML = name1 + " wishes";
-document.getElementById("share").href = "whatsapp://send?text= " + name1 + " wish u *HAPPY INDEPENDANCE DAY* " + shareUrl + "?n=" + name1 ; 
+document.getElementById("share").href = "whatsapp://send?text= " + name1 + " wish u *HAPPY INDEPENDANCE DAY* " + shareUrl + "?by=" + name1 ; 
 
 
 

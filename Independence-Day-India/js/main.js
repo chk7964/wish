@@ -1,7 +1,7 @@
 
 
 let params = new URLSearchParams(window.location.search); // object to get query or strings in url
-let myparams = params.get('n');
+let myparams = params.get('by');
 if (myparams === null) {
 	myparams = "[Your Name]";
 }
