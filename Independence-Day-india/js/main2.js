@@ -4,10 +4,8 @@ let name1=localStorage.getItem("name");
           document.title = name1 + ' Wish You Happy Indepensday' ;
 
 
-    var name =localStorage.getItem("name");
-    console.log(name);
-document.getElementById("obj1").innerHTML = name + " wishes";
-document.getElementById("share").href = "whatsapp://send?text= " + name + " wish u *HAPPY INDEPENDANCE DAY* " + shareUrl + "?n=" + name1 ; 
+document.getElementById("obj1").innerHTML = name1 + " wishes";
+document.getElementById("share").href = "whatsapp://send?text= " + name1 + " wish u *HAPPY INDEPENDANCE DAY* " + shareUrl + "?n=" + name1 ; 
 
 
 
