@@ -1,10 +1,10 @@
-let shareUrl = 'http://127.0.0.1:5500/index.html';    // get full url
+let shareUrl = 'link.wishes4u.xyz/Independence-Day-India';    // get full url
 let params = new URLSearchParams(window.location.search); // object to get query or strings in url
 
-    var name1 =localStorage.getItem("name");
-    console.log(name1);
-document.getElementById("obj1").innerHTML = name1 + " wishes";
-document.getElementById("share").href = "whatsapp://send?text= " + name1 + " wish u *HAPPY INDEPENDANCE DAY* " + shareUrl + "?n=" + name ; 
+    var name =localStorage.getItem("name");
+    console.log(name);
+document.getElementById("obj1").innerHTML = name + " wishes";
+document.getElementById("share").href = "whatsapp://send?text= " + name + " wish u *HAPPY INDEPENDANCE DAY* " + shareUrl + "?n=" + name ; 
 
 var name1=localStorage.getItem("name");
           document.title = name1 + ' Wish You Happy Indepensday' ;
