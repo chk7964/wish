@@ -1,11 +1,11 @@
-let shareUrl = 'https://www.wishes4u.xyz/Sawan';    // get full url
+let shareUrl = 'https://www.wishes4u.xyz/Independence-Day-India';    // get full url
 let params = new URLSearchParams(window.location.search); // object to get query or strings in url
 let name1=localStorage.getItem("name");
           document.title = name1 + ' Wish You Happy Indepensday' ;
 
 
 document.getElementById("obj1").innerHTML = name1 + " <br> <br>की ओर से आपको";
-document.getElementById("share").href = "whatsapp://send?text= "+"सावन के पवन महीने में "+ "*"+name1+"*" + " की तरफ से आपको wish किया जाता है"+"%0A"+" क्लिक करे और सन्देश देखे👇👇👇👇" +"%0A" + shareUrl + "?by=" + name1.replace("#", "").replace(/ /g, "_") ; 
+document.getElementById("share").href = "whatsapp://send?text="+"सावन के पवन महीने में "+ "*"+name1+"*" + " की तरफ से आपको wish किया जाता है"+"%0A"+"क्लिक करे और सन्देश देखे👇👇👇👇" +"%0A" + shareUrl + "?by=" + name1.replace("#", "").replace(/ /g, "_") ; 
 
 
 
