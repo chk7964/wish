@@ -4,8 +4,8 @@ let name1=localStorage.getItem("name");
           document.title = name1 + ' Wish You Happy Indepensday' ;
 
 
-document.getElementById("obj1").innerHTML = name1 + " wishes";
-document.getElementById("share").href = "whatsapp://send?text= " + name1 + " wish u *HAPPY INDEPENDANCE DAY* " + shareUrl + "?by=" + name1 ; 
+document.getElementById("obj1").innerHTML = name1 + " <br> <br>की ओर से आपको";
+document.getElementById("share").href = "whatsapp://send?text= " + name1 + " wish u *HAPPY INDEPENDANCE DAY* " + shareUrl + "?by=" + name1.replace("#", "").replace(/ /g, "_") ; 
 
 
 
@@ -53,8 +53,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 // Display the result in the element with id="demo"
-document.getElementById("demo").innerHTML = days + "<font color='red'> दिन,</font> " + hours + "<font color='red'> घंटे,</font> "
-+ minutes + "<font color='red'>  मिनट,<br></font> " + seconds + "<font color='red'> सेकेंड </font>पहले  ";
+document.getElementById("demo").innerHTML = days + "<font color='green'> दिन,</font> " + hours + "<font color='green'> घंटे,</font> "
++ minutes + "<font color='green'>  मिनट,<br></font> " + seconds + "<font color='green'> सेकेंड </font>पहले  ";
 
   // If the count down is finished, write some text 
   if (distance < 0) {
