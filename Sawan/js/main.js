@@ -7,7 +7,8 @@ if (myparams === null) {
 }
 if (myparams.length !== 0) {
 	myparams = myparams.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, ' ');
-	console.log("name is there", myparams)}
+	console.log("name is there", myparams)
+}
 
 
 console.log(myparams);
