@@ -4,7 +4,8 @@ let name1=localStorage.getItem("name");
           document.title = name1 + ' Wish You Happy Indepensday' ;
 
 
-document.getElementById("obj1").innerHTML = name1 + " <br> <br>की ओर से आपको";
+document.getElementById("obj1").innerHTML = name1;
+document.getElementById("namefooter").innerHTML = "By "+ name1;
 document.getElementById("share").href = "whatsapp://send?text="+"सावन के पवन महीने में "+ "*"+name1+"*" + " की तरफ से आपको wish किया जाता है"+"%0A"+"क्लिक करे और सन्देश देखे👇👇👇👇" +"%0A" + shareUrl + "?by=" + name1.replace("#", "").replace(/ /g, "_") ; 
 
 

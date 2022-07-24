@@ -20,6 +20,7 @@ document.getElementById("obj1").innerHTML = myparams;
 document.getElementById("namefooter").innerHTML = "By "+ myparams;
 
 
+
 function get_name() {   // on-click function
 	var x = document.getElementById("name").value;
 	if(x == ""){
