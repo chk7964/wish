@@ -39,7 +39,7 @@ function get_name() {   // on-click function
 }
 
 var name1 = localStorage.getItem("name");
-document.title = name1 + ' Wish You Happy Indepensday';
+document.title = name1 + ' Wish You Happy Independence Day';
 // Click Body Event
 const body = document.querySelector('body')
 window.addEventListener("click", (e) => {

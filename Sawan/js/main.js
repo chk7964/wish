@@ -17,28 +17,28 @@ var name1 = localStorage.getItem("name");
 console.log(name1);
 
 document.getElementById("obj1").innerHTML = myparams;
-document.getElementById("namefooter").innerHTML = "By "+ myparams;
+document.getElementById("namefooter").innerHTML = "By- " + myparams;
 
 
 function get_name() {   // on-click function
 	var x = document.getElementById("name").value;
-	if(x == ""){
+	if (x == "") {
 		alert('Please enter your name');
-		}else if (x.length <=2 ) {
+	} else if (x.length <= 2) {
 		alert('Min lenght is 3')
-		}else if(!isNaN(x)){
+	} else if (!isNaN(x)) {
 		alert('Numbers are not allowed');
-		} else{
+	} else {
 
-	localStorage.setItem("name", x);
-	var name = localStorage.getItem("name");
-	console.log(name);
-    window.location = 'share.html';
-		}
+		localStorage.setItem("name", x);
+		var name = localStorage.getItem("name");
+		console.log(name);
+		window.location = 'share.html';
+	}
 }
 
 var name1 = localStorage.getItem("name");
-document.title = name1 + ' Wish You Happy Indepensday';
+document.title = name1 + ' की तरफ से सावन की हार्दिक शुभकामनाये';
 // Click Body Event
 const body = document.querySelector('body')
 window.addEventListener("click", (e) => {
@@ -70,27 +70,27 @@ window.addEventListener("click", (e) => {
 var countDownDate = new Date("August 15, 2022 00:00:00").getTime();
 
 // Update the count down every 01 second
-var x = setInterval(function() {
+var x = setInterval(function () {
 
-  // Get todays date and time
-  var now = new Date().getTime();
+	// Get todays date and time
+	var now = new Date().getTime();
 
-  // Find the distance between now an the count down date
-  var distance = countDownDate - now;
+	// Find the distance between now an the count down date
+	var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+	// Time calculations for days, hours, minutes and seconds
+	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-// Display the result in the element with id="demo"
-document.getElementById("demo").innerHTML = days + "<font color='green'> दिन,</font> " + hours + "<font color='green'> घंटे,</font> "
-+ minutes + "<font color='green'>  मिनट,<br></font> " + seconds + "<font color='green'> सेकेंड </font>पहले  ";
+	// Display the result in the element with id="demo"
+	document.getElementById("demo").innerHTML = days + "<font color='green'> दिन,</font> " + hours + "<font color='green'> घंटे,</font> "
+		+ minutes + "<font color='green'>  मिनट,<br></font> " + seconds + "<font color='green'> सेकेंड </font>पहले  ";
 
-  // If the count down is finished, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "";
-  }
+	// If the count down is finished, write some text 
+	if (distance < 0) {
+		clearInterval(x);
+		document.getElementById("demo").innerHTML = "";
+	}
 }, 1000);

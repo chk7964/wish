@@ -1,7 +1,7 @@
 let shareUrl = 'https://www.wishes4u.xyz/Sawan';    // get full url
 let params = new URLSearchParams(window.location.search); // object to get query or strings in url
 let name1=localStorage.getItem("name");
-          document.title = name1 + ' Wish You Happy Indepensday' ;
+          document.title = name1 + ' की तरफ से सावन की हार्दिक शुभकामनाये' ;
 
 
 document.getElementById("obj1").innerHTML = name1;
@@ -36,7 +36,7 @@ window.addEventListener("click",(e)=>{
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("August 15, 2022 00:00:00").getTime();
+var countDownDate = new Date("August 15, 2021 00:00:00").getTime();
 
 // Update the count down every 01 second
 var x = setInterval(function() {
