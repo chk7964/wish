@@ -16,7 +16,8 @@ localStorage.setItem("name", myparams);
 var name1 = localStorage.getItem("name");
 console.log(name1);
 
-document.getElementById("obj1").innerHTML = myparams + "<br> <br>की ओर से आपको";
+document.getElementById("obj1").innerHTML = myparams;
+document.getElementById("namefooter").innerHTML = "By "+ myparams;
 
 
 
