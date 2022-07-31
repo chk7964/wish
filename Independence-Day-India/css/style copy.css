@@ -1,0 +1,452 @@
+html {
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+}
+
+body {
+  background-image: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+  ;
+  background-repeat: no-repeat;
+}
+
+.enter-name input[type=name] {
+  background-color: #F2F919;
+  color: black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border-color: black;
+  padding: 5px;
+  position: fixed;
+  left: 10px;
+  bottom: 5px;
+  height: 50px;
+  width: 70%;
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.enter-name .btnn {
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 4px;
+  position: fixed;
+  right: 2px;
+  bottom: 5px;
+  height: 50px;
+  width: 23%;
+  display: inline-block;
+  color: black;
+  background-color: #ff0ec0;
+  border-color: black;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+  line-height: 36px;
+  outline: 0;
+  text-transform: uppercase;
+  vertical-align: middle;
+  text-decoration: none;
+  animation-duration: 4s !important;
+}
+
+.enter-name input[type=name]::-webkit-input-placeholder {
+  color: black;
+  font-size: 18px;
+}
+
+.enter-name input[type=name]::-moz-placeholder {
+  color: #eee;
+  font-size: 18px;
+}
+
+.enter-name input[type=name]:focus::-webkit-input-placeholder {
+  color: #c0392b;
+}
+
+.enter-name input[type=name]:focus::-moz-placeholder {
+  color: #c0392b;
+  font-size: 18px;
+}
+
+
+.m1 {
+  position: fixed;
+  left: 2%;
+  width: auto;
+  height: 100%;
+  top: 1%;
+  color: #000;
+}
+
+.m2 {
+  position: fixed;
+  right: 2%;
+  width: auto;
+  height: 100%;
+  top: 1%;
+  color: #000;
+}
+
+/* DEMO-SPECIFIC STYLES */
+/* typing effect start */
+
+
+
+
+
+/* typing effect end */
+.footerbtn {
+  display: block;
+  line-height: 15px;
+  right: -10px;
+  bottom: 70px;
+  height: 55px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 5px;
+  background: #34af23;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 30px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .3);
+  animation: footer infinite linear 1s;
+  -webkit-transform: translate3d(30%, 0, 0);
+  transform: translate3d(30%, 0, 0);
+
+
+}
+
+
+
+@keyframes footer {
+  from {
+    -webkit-transform: rotateZ(0)
+  }
+
+  25% {
+    -webkit-transform: rotateZ(1.5deg)
+  }
+
+  50% {
+    -webkit-transform: rotateZ(0deg)
+  }
+
+  75% {
+    -webkit-transform: rotateZ(-1.5deg)
+  }
+
+  to {
+    -webkit-transform: rotateZ(0)
+  }
+}
+
+
+body {
+  text-align: center;
+
+}
+
+
+.enter-name .btn {
+  border-radius: 10px;
+  font-size: 21px;
+  padding: 4px;
+  position: fixed;
+  right: 2px;
+  bottom: 5px;
+  height: 50px;
+  width: 23%;
+  display: inline-block;
+  color: black;
+  background-color: #10E43A;
+  border-color: black;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+  line-height: 36px;
+  outline: 0;
+  text-transform: uppercase;
+  vertical-align: middle;
+  text-decoration: none;
+  animation-duration: 4s !important;
+}
+
+.enter-name input[type=name]::-webkit-input-placeholder {
+  color: black;
+  font-size: 18px;
+}
+
+.enter-name input[type=name]::-moz-placeholder {
+  color: #eee;
+  font-size: 18px;
+}
+
+.enter-name input[type=name]:focus::-webkit-input-placeholder {
+  color: #c0392b;
+}
+
+
+.clickHeart {
+  position: absolute;
+  color: yellow;
+  font-size: 50px;
+  animation: zoomout 2s linear;
+  z-index: 50;
+}
+
+@keyframes zoomout {
+  to {
+    opacity: 0;
+    transform: scale(2, 2);
+  }
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainContainer {
+  background: white;
+  max-width: 450px;
+  min-height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .14), 0 1px 14px 2px rgba(0, 0, 0, .12), 0 0 5px -3px rgba(0, 0, 0, .3);
+}
+
+.open-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 2px;
+  right: 0px;
+  left: 20px;
+
+}
+
+#namefooter {
+  color: red;
+  text-transform: uppercase;
+  border: 5px solid red;
+  margin: 10px 10px;
+  padding: 10px;
+  background-color: #00ffd7;
+  border-radius: 5px;
+  width: 80%;
+
+
+}
+
+
+
+.container-share {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  display: inline-flex;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-share {
+  display: flex;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: .75rem;
+}
+
+.btn-share:last-child {
+  margin-bottom: 0;
+}
+
+.active {
+  color: white;
+}
+
+.btn-twitter.active {
+  background-color: #3aa3d4;
+}
+
+.btn-facebook.active {
+  background-color: #325c93;
+}
+
+.btn-code.active {
+  background-color: #4c8c2b;
+}
+
+.btn-qr.active {
+  background-color: #363636;
+}
+
+.btn-email.active {
+  background-color: #ffa300;
+}
+
+.btn-whatsapp.active {
+  background-color: #4fd366;
+}
+
+.btn-google-plus.active {
+  background-color: #fa4444;
+}
+
+.btn-pinterest.active {
+  background-color: #d60c28;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0; padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+} */
+
+
+/* html, body{
+    left:0px;
+    display: grid;
+    height: 200vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(211,244,10,1) 0%, rgba(197,255,170,0.804359243697479) 35%, rgba(0,212,255,1) 100%);
+} */
+
+/* .box{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background: linear-gradient(315deg, #ffffff 0%, #d7e1ed 74%);
+} */
+
+.container{
+    position: fixed;
+    top: 35vh;
+}
+
+.container .icon{
+    margin:0 5px;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    transition: 0.4s cubic-bezier(0.52, -0.50, 0.212, 1.45);
+}
+
+.container .icon span{
+    position: relative;
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    border-radius: 0%;
+    z-index: 2;
+    transition: 0.4s cubic-bezier(0.52, -0.50, 0.212, 1.45);
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+}
+
+.container .icon span i{
+    line-height: 60px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.container .icon .tooltip{
+    position: absolute;
+    background: #fff;
+    color: #fff;
+    padding: 10px 18px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 0px;
+    top:20px;
+    left: 80px;
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: 0.4s cubic-bezier(0.52, -0.50, 0.212, 1.45);
+}
+
+.container .icon:hover .tooltip{
+    top: -0px;
+    opacity: 1;
+    margin-top: 10px;
+    pointer-events: auto;
+}
+
+.icon .tooltip:before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    left: 3px;
+    bottom: 15px;
+    transform: translate(-50%) rotate(45deg);
+    transition: 0.4s cubic-bezier(0.52, -0.50, 0.212, 1.45);
+}
+
+.container .facebook span,
+.container .facebook .tooltip,
+.container .facebook .tooltip:before{
+    background: #3b5999;
+    color: #fff;
+}
+
+.container .youtube span,
+.container .youtube .tooltip,
+.container .youtube .tooltip:before{
+    background: #de463b;
+    color: #fff;
+}
+
+.container .twitter span,
+.container .twitter .tooltip,
+.container .twitter .tooltip:before{
+    background: #46c1f6;
+    color: #fff;
+}
+
+.container .instagram span,
+.container .instagram .tooltip,
+.container .instagram .tooltip:before{
+    background: #0086f7;
+    color: #fff;
+}

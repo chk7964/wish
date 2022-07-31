@@ -38,7 +38,7 @@ function get_name() {   // on-click function
 }
 
 var name1 = localStorage.getItem("name");
-document.title = name1 + ' की तरफ से सावन की हार्दिक शुभकामनाये';
+document.title = name1 + ' की तरफ से रक्षा बंधन की हार्दिक शुभकामनाये';
 
 
 // Click Body Event
@@ -69,7 +69,7 @@ window.addEventListener("click", (e) => {
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("August 15, 2022 00:00:00").getTime();
+var countDownDate = new Date("August 11, 2022 00:00:00").getTime();
 
 // Update the count down every 01 second
 var x = setInterval(function () {

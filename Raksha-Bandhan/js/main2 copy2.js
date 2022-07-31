@@ -1,13 +1,13 @@
 let shareUrl = 'https://www.wishes4u.xyz/Sawan';    // get full url
 let params = new URLSearchParams(window.location.search); // object to get query or strings in url
 let name1 = localStorage.getItem("name");
-document.title = name1 + ' की तरफ से सावन की हार्दिक शुभकामनाये';
+document.title = name1 + ' की तरफ से रक्षा बंधन की हार्दिक शुभकामनाये';
 
 document.getElementById("obj1").innerHTML = name1;
 document.getElementById("namefooter").innerHTML = "By- " + name1;
-document.getElementById("share1").href = "whatsapp://send?text=" + "सावन के पावन महीने में " + "*" + name1 + "*" + " ने कमाल का Message भेजा है।" + "%0A" + "क्लिक करे और सन्देश देखे 👇👇👇👇" + "%0A" + shareUrl + "?by=" + name1.replace("#", "").replace(/ /g, "_");
-document.getElementById("share2").href = "https://telegram.me/share/url?url=" + shareUrl + "?by=" +name1.replace("#", "").replace(/ /g, "_")+"&text="+ "सावन के पावन महीने में " + name1 + " ने कमाल का Message भेजा है।" + "%0A" + "ऊपर क्लिक करे और सन्देश देखे👆👆👆👆";
-document.getElementById("share3").href = "https://twitter.com/intent/tweet?text=" + "सावन के पावन महीने में " + name1 + " ने कमाल का Message भेजा है।" + "%0A" + "क्लिक करे और सन्देश देखे 👇👇👇👇" + "%0A" + shareUrl + "?by=" + name1.replace("#", "").replace(/ /g, "_");
+document.getElementById("share1").href = "whatsapp://send?text=" + "रक्षा बंधन के शुभ अवसर पर " + "*" + name1 + "*" + " ने कमाल का Message भेजा है।" + "%0A" + "क्लिक करे और सन्देश देखे 👇👇👇👇" + "%0A" + shareUrl + "?by=" + name1.replace("#", "").replace(/ /g, "_");
+document.getElementById("share2").href = "https://telegram.me/share/url?url=" + shareUrl + "?by=" +name1.replace("#", "").replace(/ /g, "_")+"&text="+ "रक्षा बंधन के शुभ अवसर पर " + name1 + " ने कमाल का Message भेजा है।" + "%0A" + "ऊपर क्लिक करे और सन्देश देखे👆👆👆👆";
+document.getElementById("share3").href = "https://twitter.com/intent/tweet?text=" + "रक्षा बंधन के शुभ अवसर पर " + name1 + " ने कमाल का Message भेजा है।" + "%0A" + "क्लिक करे और सन्देश देखे 👇👇👇👇" + "%0A" + shareUrl + "?by=" + name1.replace("#", "").replace(/ /g, "_");
 
 
 // Click Body Event
@@ -36,7 +36,7 @@ window.addEventListener("click", (e) => {
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("August 15, 2021 00:00:00").getTime();
+var countDownDate = new Date("August 11, 2021 00:00:00").getTime();
 
 // Update the count down every 01 second
 var x = setInterval(function () {
