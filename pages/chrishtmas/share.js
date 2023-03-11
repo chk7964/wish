@@ -43,7 +43,6 @@ export default function Home() {
     return (
      <>
      <Head>
-    <meta name="google" content="notranslate" />
     </Head>
     
     

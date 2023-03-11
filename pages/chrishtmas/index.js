@@ -6,12 +6,12 @@ import Head from "next/head";
 import 'animate.css';
 
 
-export default function Home(props) {
+export default function Home() {
+    const [data, setData] = useState({ by: "" });
 
     const { query } = useRouter();
     const uname = query.by;
-    console.log(uname);
-    const [data, setData] = useState({ by: "" });
+    // console.log(uname);
 
     let greeting;
     if (uname === undefined) {
@@ -19,9 +19,6 @@ export default function Home(props) {
     } else {
         greeting = uname;
     }
-
-   
-
 
 
     const users = slugify(String(greeting), {
